@@ -1,0 +1,47 @@
+#From now i'll upload my practice on github daily, time gonna work hard..
+
+#list,tuple,dict,set
+
+list:- 
+list is ordered
+list is mutable we can change or add elements
+list allos duplicates and it use [] square brackets
+
+
+tuple:-
+tuple is order 
+tuple is immutable it cannot change or add elements
+it allows duplicates and it use parentheses()
+
+dict:
+dict is order
+dict is mutable we can change or add elements
+dict allows only values duplcates doesn't allows keys and it use cur brackets{}
+
+set:-
+set is mutable and un-ordered 
+it do not allows duplicates anymore it uses square brackets[]
+
+
+#data types
+actually the main data types are 9 these are:
+1.string
+2.int
+3.float
+4.complex 
+5.list 
+6.tuple
+7.set
+8.dict
+9.bool
+
+
+#operators
+the main operators in python are 7 types these
+1.Arthemetic operators
+2.Assignment operators
+3.comparison operators
+4.logical operators
+5.bitwise operators
+6.membership operators
+7.identity operators
