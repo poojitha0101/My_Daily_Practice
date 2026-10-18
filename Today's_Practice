@@ -1,0 +1,61 @@
+#Today's Practice
+
+#strings practice
+#name=input("enter a name: ")
+name="  poojith a"
+print(name.upper())
+print(name.lower())
+print(name.strip())
+print(name.replace("a","@"))
+print(len(name))
+print(name.count("o"))
+print(name.replace(" ",""))
+print(len(name.strip()))
+print(len(name.replace(" ","")))
+print(name.title())
+print(name.rstrip())
+print(name.lstrip())
+print(name.capitalize())
+print(name.islower())
+print(name.isupper())
+print(name.isnumeric())
+print(name.split())
+print(name.find("o"))
+print(name.join("Pooji"))
+-----
+name="poojita nallamaru"
+age=21
+city="kadapa mydukur"
+print(f"My Name is {name} from {city} and my age is {age} thanks for giving this oppurtunity")
+-----
+
+#Vowels counter
+name=input("enter a name: ")
+count=0
+for char in name.lower():
+    if char in "aeiou":
+        count+=1
+print(f"Number of Vowels:{count}")
+-----
+name="poojitha"
+count=0
+for char in name.lower():
+    if char in "aeiou":
+        count+=1
+print(f"Number of Vowels:{count}")
+------
+math=int(input("enter maths marks: "))
+science=int(input("enter science marks: "))
+english=int(input("enter english: "))
+total=math+science+english
+avg=total/3
+if total>=90:
+    print("Grade:A")
+elif total>=70:
+    print("Grade:B")
+else:
+    print("Grade:C")
+print(f"Total Marks:{total}\nAverage Marks:{avg}")
+
+------
+
